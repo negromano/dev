@@ -1,6 +1,10 @@
 body{
     margin: 0px;
     font-family: "Helvetica";
+    background-color: black;
+    background-image: url(resources/loader.gif); 
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .welcome-container{
@@ -39,6 +43,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.loading{
+    display: none;
 }
 
 .main-navbar li{
